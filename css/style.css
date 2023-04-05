@@ -302,3 +302,77 @@ body {
     line-height: 17px;
     color: #52FFE0;
 }
+
+.collection__btn{
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+    color: #2C2D31;
+    padding: 15px 20px;
+    background: #52FFE0;
+    border-radius: 50px;
+}
+
+
+/*------------------------------------------------------*/
+
+
+
+#tranding{
+    padding: 100px;
+}
+
+.tranding__cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.tranding__card{
+    width: 20%;
+    background: #1D1E22;
+    border-radius: 30px;
+    margin: 0 10px;
+}
+
+.tranding__card img{
+    width: 100%;
+}
+
+.tranding__card h2{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.tranding__card p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-left: 10px;
+
+}
+
+.tranding__card--info{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    background: #2C2D31;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.tranding__card--info span{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
